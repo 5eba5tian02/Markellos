@@ -1,10 +1,10 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --blue:    #1565c0;
-  --blue-dk: #0d47a1;
-  --blue-lt: #e3f2fd;
-  --accent:  #f57c00;
+  --blue:    #c62828;
+  --blue-dk: #b71c1c;
+  --blue-lt: #ffebee;
+  --accent:  #d84315;
   --whatsapp:#25d366;
   --whatsapp-dk:#1da851;
   --grey:    #f5f5f5;
@@ -110,7 +110,7 @@ nav {
   font-weight: 700 !important;
 }
 
-.nav-cta:hover { background: #e65100 !important; }
+.nav-cta:hover { background: #bf360c !important; }
 
 .hamburger {
   display: none;
@@ -133,7 +133,7 @@ nav {
 /* ── HERO ── */
 #hero {
   min-height: 92vh;
-  background: linear-gradient(rgba(13, 71, 161, 0.82), rgba(13, 71, 161, 0.75)),
+  background: linear-gradient(rgba(183, 28, 28, 0.82), rgba(183, 28, 28, 0.75)),
               url('unfall2.png') center/cover no-repeat;
   display: flex;
   align-items: center;
@@ -198,7 +198,7 @@ h1 {
   border-color: var(--accent);
 }
 
-.btn-orange:hover { background: #e65100; border-color: #e65100; transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.2); }
+.btn-orange:hover { background: #bf360c; border-color: #bf360c; transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.2); }
 
 .btn-whatsapp {
   background: var(--whatsapp);
@@ -304,7 +304,7 @@ h2 {
 
 .service-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 12px 32px rgba(21, 101, 192, 0.12);
+  box-shadow: 0 12px 32px rgba(198, 40, 40, 0.12);
   border-color: var(--blue);
 }
 
@@ -352,7 +352,7 @@ h2 {
   overflow: hidden;
   position: relative;
   aspect-ratio: 4/3;
-  background: #1a237e;
+  background: #4a0e0e;
 }
 
 .gallery-item:first-child {
@@ -714,7 +714,7 @@ h2 {
 
 /* ── PAGE HERO (for subpages without the big hero) ── */
 .page-hero {
-  background: linear-gradient(rgba(13,71,161,0.92), rgba(13,71,161,0.88));
+  background: linear-gradient(rgba(183,28,28,0.92), rgba(183,28,28,0.88));
   padding: 56px 5% 48px;
   text-align: center;
 }
